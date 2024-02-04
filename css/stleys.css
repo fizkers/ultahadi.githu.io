@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* Background diatur oleh pengguna, tandai di bawah ini */
+  background-image: url("https://th.bing.com/th/id/R.feee44591604788c0e647c70ed7006c9?rik=3mpMkczKP4pHbg&riu=http%3a%2f%2fcasinotong.com%2fwp-content%2fuploads%2f2018%2f01%2fJudi-Online-Casino.jpg&ehk=8KRxQtmi6NTPR4JB2NgGX1c%2floJ4FAV6XrB%2bYUGMuKU%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  color: white;
+}
+
+.ucapan-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+
+#pesanContainer {
+  margin-top: 20px;
+}
